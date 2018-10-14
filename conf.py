@@ -126,8 +126,15 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {  # TODO
+html_theme_options = {
+    'canonical_url': 'https://coherentpython.net/',
+    'description': "An open source book for Python learners.",
+    'fixed_sidebar': False,
     'donate_url': 'https://www.paypal.me/TheColorGreen',
+    'github_button': True,
+    'github_repo': 'https://github.com/coherentgreen/coherent-python<Paste>',
+    'github_user': 'coherentpython',
+    'show_relbars': True,    
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
