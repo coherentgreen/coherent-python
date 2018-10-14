@@ -129,6 +129,7 @@ html_theme = 'alabaster'
 html_theme_options = {
     'canonical_url': 'https://coherentpython.net/',
     'description': "An open source book for Python learners.",
+    'page_width': '80%',
     'fixed_sidebar': False,
     'donate_url': 'https://www.paypal.me/TheColorGreen',
     'github_button': True,
