@@ -133,8 +133,8 @@ html_theme_options = {
     'fixed_sidebar': False,
     'donate_url': 'https://www.paypal.me/TheColorGreen',
     'github_button': True,
-    'github_repo': 'https://github.com/coherentgreen/coherent-python<Paste>',
-    'github_user': 'coherentpython',
+    'github_repo': 'coherent-python',
+    'github_user': 'coherentgreen',
     'show_relbars': True,    
 }
 
