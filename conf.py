@@ -21,6 +21,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+from pathlib import Path
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -81,7 +83,11 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.rst']
+exclude_patterns = [
+    '_build', 'Thumbs.db', '.DS_Store',
+    'README.rst',
+    'global.rst',
+]
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -128,14 +134,14 @@ html_theme = 'alabaster'
 #
 html_theme_options = {
     'canonical_url': 'https://coherentpython.net/',
-    'description': "An open source book for Python learners.",
-    'page_width': '80%',
     'fixed_sidebar': False,
-    'donate_url': 'https://www.paypal.me/TheColorGreen',
-    'github_button': True,
-    'github_repo': 'coherent-python',
-    'github_user': 'coherentgreen',
+    'logo': 'logo.png',
+    'logo_name': True,
     'show_relbars': True,    
+}
+
+html_context = {
+    'paypal_url': 'https://www.paypal.me/TheColorGreen',
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -153,13 +159,13 @@ html_title = project
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-# html_logo = None
+# html_logo = str(Path('./_static/logo.png'))
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #
-# html_favicon = None
+html_favicon = str(Path('./_static/favicon.ico'))
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -185,7 +191,13 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 #
-# html_sidebars = {}
+html_sidebars = {
+    '**': [
+        'about.html',
+        'copydonate.html',
+        'navigation.html',
+    ],
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
