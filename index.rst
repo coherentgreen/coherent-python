@@ -3,9 +3,9 @@
 Coherent Python
 ===============
 
-*Coherent Python* is an `open source <project-repository_>`_ book
-for Python learners from every walk of life, with a special emphasis
-on tools for teaching.
+*Coherent Python* is a free (and `open source <project-repository_>`_)
+book for Python learners from every walk of life, with a special
+emphasis on tools for teaching.
 
 .. toctree::
    :maxdepth: 2
