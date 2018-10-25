@@ -28,7 +28,7 @@ License
 
 *Coherent Python* is licensed under the 
 `Creative Commons Attribution-ShareAlike 4.0 International License
-<https://creativecommons.org/licenses/by-sa/4.0/>`_.
+<project-license_>`_.
 
 Additional Links
 ----------------
