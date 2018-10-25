@@ -1,6 +1,5 @@
 Coherent Python
 ===============
 
-*Coherent Python* is a free and open source book for Python learners
-from every walk of life, with a special emphasis on tools for
-teaching.
+*Coherent Python* is a free book for learning, teaching, and
+understanding the Python language.

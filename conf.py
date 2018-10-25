@@ -85,6 +85,7 @@ language = None
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = [
     '_build', 'Thumbs.db', '.DS_Store',
+    'IDENT',
     'README.rst',
     'global.rst',
 ]
@@ -206,11 +207,11 @@ html_sidebars = {
 
 # If false, no module index is generated.
 #
-# html_domain_indices = True
+html_domain_indices = False
 
 # If false, no index is generated.
 #
-# html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #
@@ -340,7 +341,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'CoherentPython', project,
-     author, 'CoherentPython', 'Teaching and learning Python.',
+     author, 'CoherentPython',
+     'Learning, teaching, and understanding Python.',
      'Miscellaneous'),
 ]
 
