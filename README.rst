@@ -1,7 +1,7 @@
 Coherent Python
 ===============
 
-*`Coherent Python <project-canonical_>`_* is a free book for
+`Coherent Python <project-canonical_>`_ is a free book for
 learning, teaching, and understanding the Python language.
 
 .. Resource Hyperlinks
