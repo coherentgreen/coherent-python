@@ -41,7 +41,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = '.rst.txt'
 
 # The encoding of source files.
 #
@@ -87,7 +87,7 @@ exclude_patterns = [
     '_build', 'Thumbs.db', '.DS_Store',
     'IDENT',
     'README.rst',
-    'global.rst',
+    'global.txt',
 ]
 
 # The reST default role (used for this markup: `text`) to use for all
